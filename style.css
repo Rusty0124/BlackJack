@@ -1,0 +1,28 @@
+* {
+  background-color: #35654d;
+}
+.row {
+  margin-top: 50px;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+.card {
+  display: flex;
+  margin: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: white;
+}
+button{
+  display:flex;
+  text-align: center;
+  justify-self: center;
+  background-color: white;
+  border-radius: 30%
+}

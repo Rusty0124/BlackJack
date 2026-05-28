@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Jack</title>
+    <link rel="stylesheet" href="style.css">
+    
+<body>
+    <section class="dealer">
+        <div class="row">
+            <div id = "dealercards" class="cards">
+                <div id="dealercard1" class="card">Card 1</div>
+                <div id="dealercard2" class="card">Card 2</div>
+                <div id = "dealertotal" class = "total" > </div>
+            </div>
+        </div>
+    </section>
+    <section class="player">
+        <div class="row">
+            <div id = "playercards" class="cards">
+                <div id = "playercard1" class="card">Card 1</div>
+                <div id = "playercard2" class="card">Card 2</div>
+                <div id = "playertotal" class = "total" > </div>
+            </div>
+            <button onclick="hit()">Hit</button>
+            <button onclick="stand()">Stand</button>
+        </div>
+    </section>
+
+<script src="script.js"></script>
+</body>
+
+</html>
